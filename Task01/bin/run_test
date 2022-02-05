@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+$autoload = __DIR__ . '/../vendor/autoload.php';
+
+require_once($autoload);
+
+use function App\Test\runTest;
+
+runTest();
